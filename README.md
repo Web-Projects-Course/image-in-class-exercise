@@ -17,20 +17,13 @@ We are going to take a look at how to size JPEGs for the web and what different 
 4. What are the file sizes of the respective images?
 
 ### Working with PNGs
-1. Use the image from the previous exercise and save the high resolution version (683px × 1024px) as a PNG without transparency called "**flamingo-notran.png**". What is the file size difference?
-2. Convert the background layer to a normal layer and erase part of the image so it show transparency. Save it as "**flamingo-tran.png**", this time with transparency.
-
-### Make a gif animation
-1. Find a video on youtube you would like to create a GIF of
-2. Use keepvid to download it.
-3. Import a selection of the video into photoshop.
-4. Create a frame animation an export as a GIF
+1. Use the image from the previous exercise and save the high resolution version (683px × 1024px) as a PNG without transparency called "**flamingo.png**". What is the file size difference?
+2. Let try something similar in Illustrator. Open Illustrator. Create a new document with a single ellipse.
+3. Export it as ellipse.png.
 
 ### Working with SVGs
-1. Open the test file with Illustrator
-2. Save as SVG
-3. Include it as IMG
-4. Include it as object
-5. Copy and paste it
+1. Now export the ellipse as an SVG file? What is the difference? Compare the file sizes.
+2. We included in the SVG in the last instruction as an <code>&lt;img&gt;</code> tag. But there are other ways. Include it as <code>&lt;object&gt;</code> like this:  <pre><code>&lt;object type="image/svg+xml" data="images/ellipse.svg"&gt;This is fallback text.&lt;/object&gt;</code></pre>
+3. Now drag the ellipse.svg file onto Brackets. It should appear as a text file. Can you figure out how the ellipse data is stored? It should look familiar. Copy and paste it into the appropriate place in index.html.
 
 
