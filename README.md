@@ -7,19 +7,18 @@ JPEGs are the work horse of web graphics. They have been used for many purposes 
 
 We are going to take a look at how to size JPEGs for the web and what different compression levels look like. This is particularlly important for the larger images needed for high resolution displays like Apple's retina screens.
 
-1. Open "Flamingo-Original.tif" It is currently a bit bigger than we need.
-2. We are going to create 4 different **JPG** versions of this image. 
-  * 342px × 512px (72ppi), low compression (quality level 12)
-  * 683px × 1024px (144ppi), low compression (quality level 12)
-  * 342px × 512px (72ppi), high compression (quality level 3)
-  * 683px × 1024px (144ppi), low compression (quality level 3)
+1. Open "Flamingo-Original.tif" in Photoshop.
+2. We are going to **"Export as"** 4 different **JPG** versions of this image. 
+  * **flamingo-low-72.jpg** 342px × 512px (72ppi), low compression (quality 0%)
+  * **flamingo-low-144.jpg** 683px × 1024px (144ppi), low compression (quality 100%)
+  * **flamingo-high-72.jpg** 342px × 512px (72ppi), high compression (quality 0%)
+  * **flamingo-high-144.jpg** 683px × 1024px (144ppi), low compression (quality 100%)
 3. When viewed in index.html can you tell a difference between the images? Which ones?
 4. What are the file sizes of the respective images?
 
 ### Working with PNGs
-1. Use the image from the previous exercise and save it as an PNG. What is the file size difference?
-2. Erase part of the image so it show transparency.
-3. Save it again this time with transparency.
+1. Use the image from the previous exercise and save the high resolution version (683px × 1024px) as a PNG without transparency called "**flamingo-notran.png**". What is the file size difference?
+2. Convert the background layer to a normal layer and erase part of the image so it show transparency. Save it as "**flamingo-tran.png**", this time with transparency.
 
 ### Make a gif animation
 1. Find a video on youtube you would like to create a GIF of
